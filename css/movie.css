@@ -85,6 +85,7 @@
     border: 1px solid red;
     border-radius: 5px;
     width: 120px;
+    justify-content: center;
 }
 
 #genre {

@@ -251,9 +251,11 @@ label {
 }
 
 #check:checked ~ label {
-    display: none;
+    visibility: hidden;
 }
 
 #check:checked ~ label:after {
     content: 'Read less';
+    display: block;
+    visibility: visible;
 }

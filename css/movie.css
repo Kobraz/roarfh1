@@ -103,7 +103,7 @@
     
 }
 
-#genre {
+.genre {
     overflow: hidden;
     display: flex;
     justify-content: center;

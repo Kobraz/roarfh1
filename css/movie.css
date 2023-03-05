@@ -255,7 +255,7 @@ label {
 }
 
 #check:checked ~ label:after {
-    content: '&#8593; Read less';
+    content: '&#x2191; Read less';
     display: block;
     visibility: visible;
 }

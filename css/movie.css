@@ -238,7 +238,7 @@ a {
 label {
     font-family: Tahoma,Verdana,Segoe,sans-serif; 
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
     color: grey;
     text-decoration: underline;
     cursor: pointer;

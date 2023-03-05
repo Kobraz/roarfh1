@@ -238,7 +238,7 @@ a {
 label {
     display: inline-block;
     margin-top: 15px;
-    color: red;
+    color: grey;
     text-decoration: underline;
     cursor: pointer;
     font-weight: 600;

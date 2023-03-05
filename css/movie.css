@@ -33,7 +33,11 @@
     position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+}
 
+.gen {
+    color: white;
+    border: 1px solid red;
 }
 
 

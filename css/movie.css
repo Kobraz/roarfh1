@@ -89,8 +89,8 @@
     width: 80px;
     justify-content: center;
     justify-self: center;
-    padding: 10px;
-    margin: 2px;
+    padding: 10px 0;
+    margin: 2px 0;
 }
 
 #genre {

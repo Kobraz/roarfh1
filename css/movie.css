@@ -36,6 +36,7 @@
 }
 
 .gen {
+    float: left;
     color: white;
     border: 1px solid red;
     width: 120px;
@@ -87,6 +88,7 @@
 #genre {
     font-size: small;
     border-radius: 100%;
+    overflow: hidden;
 }
 
 #genre1{

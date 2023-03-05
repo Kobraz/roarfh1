@@ -35,12 +35,6 @@
     color: white;
 }
 
-.gen {
-    float: left;
-    color: white;
-    border: 1px solid red;
-    width: 120px;
-}
 
 
 @media only screen and (max-width: 420px) {
@@ -83,6 +77,14 @@
 
 .cover {
     max-height: 500px;
+}
+
+.gen {
+    float: left;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 120px;
 }
 
 #genre {

@@ -89,6 +89,7 @@
     font-size: small;
     border-radius: 100%;
     overflow: hidden;
+    justify-content: center;
 }
 
 #genre1{

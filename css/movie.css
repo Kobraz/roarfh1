@@ -249,3 +249,11 @@ label {
 #check:checked ~ .content {
     display: block;
 }
+
+#check:checked ~ label {
+    display: none;
+}
+
+#check:checked ~ label:after {
+    content: 'Read less';
+}

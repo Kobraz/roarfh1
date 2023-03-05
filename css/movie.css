@@ -233,6 +233,7 @@ a {
 .content {
     display: none;
     margin-top: -15px;
+    transition: 0.5s linear;
 }
 
 label {

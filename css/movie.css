@@ -102,6 +102,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: row;
+    justify-self: center;
     justify-content: center;
     align-items: center;
 }

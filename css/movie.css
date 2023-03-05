@@ -82,7 +82,8 @@
 .gen {
     font-family: Tahoma,Verdana,Segoe,sans-serif; 
     float: left;
-    color: white;
+    color: black;
+    background-color: white;
     border: 1px solid red;
     border-radius: 5px;
     width: 80px;

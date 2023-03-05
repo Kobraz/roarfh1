@@ -258,4 +258,5 @@ label {
     content: 'Read less';
     display: block;
     visibility: visible;
+    margin-top: -15px;
 }

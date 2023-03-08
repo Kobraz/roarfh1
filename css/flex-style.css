@@ -224,6 +224,10 @@ h3 {
 	color: white;
 }
 
+.inline > h3 {
+	float: left;
+	padding: right;
+}
 
 
 

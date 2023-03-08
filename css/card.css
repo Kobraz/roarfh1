@@ -48,8 +48,8 @@
 
 
 div .card {
-    /* width: 500px;
-    height: 741px; */
+    width: 500px;
+    height: 741px;
 }
 
 div .card #info {
@@ -57,10 +57,10 @@ div .card #info {
 }
 
 .information {
-    /* width: 460px; */
-    /* height: 650px;
+    width: 460px;
+    height: 650px;
     margin: 20px 20px;
-    background-color: #000; */
+    background-color: #000;
 }
 
 div .card h1 {
@@ -104,7 +104,7 @@ div .card p {
 }
 
 .cardPhotoX {
-    width: 100%;
+    width: 500px;
     height: 741px;
     object-fit: fill;
     justify-self: center;

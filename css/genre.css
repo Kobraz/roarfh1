@@ -1,0 +1,22 @@
+button {
+    cursor: pointer;
+    border: solid 3px #888;
+    border-radius: 10px;
+    outline:none;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+  }
+  
+  div {
+    display: inline-block;
+    border: solid 3px #ddd;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    
+  }
+  
+  .img {
+    max-height: 200px;
+  }

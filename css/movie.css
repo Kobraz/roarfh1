@@ -265,7 +265,7 @@ label {
     display: inline;
 }
 
-p.after {
+p::after {
     content: "\a";
     white-space: pre;
 }

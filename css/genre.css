@@ -20,3 +20,7 @@ button {
   .img {
     max-height: 200px;
   }
+
+  #cat {
+    display: inline;
+  }

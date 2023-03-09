@@ -264,3 +264,8 @@ label {
 .inline {
     display: inline;
 }
+
+p.after {
+    content: "\a";
+    white-space: pre;
+}

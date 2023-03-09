@@ -22,5 +22,6 @@ button {
   }
 
   #cat {
+    margin-top: 100px;
     display: inline;
   }

@@ -2,7 +2,7 @@ button {
     cursor: pointer;
     border: solid 3px #7da2ff;
     border-radius: 10px;
-    background-color: skyblue;
+    background-color: #7da2ff;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     outline:none;

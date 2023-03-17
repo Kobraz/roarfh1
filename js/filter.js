@@ -12,7 +12,6 @@ filters.forEach(filter => {
     if (selectedFilter == 'all') {
       itemsToHide = [];
       itemsToShow = document.querySelectorAll('.projects [data-filter]');
-      console.log(selectedFilter);
     }
 
     itemsToHide.forEach(el => {
@@ -25,5 +24,6 @@ filters.forEach(filter => {
       el.classList.add('show'); 
     });
 
+    console.log("Selected filter: " + selectedFilter);
   });
 });

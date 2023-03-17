@@ -12,6 +12,7 @@ filters.forEach(filter => {
     if (selectedFilter == 'all') {
       itemsToHide = [];
       itemsToShow = document.querySelectorAll('.projects [data-filter]');
+      console.log(selectedFilter);
     }
 
     itemsToHide.forEach(el => {

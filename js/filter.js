@@ -24,6 +24,5 @@ filters.forEach(filter => {
       el.classList.add('show'); 
     });
 
-    console.log(filters);
   });
 });

@@ -99,6 +99,7 @@ button {
     margin: 5px;
     padding: 5px;
     width: 100px;
+    height: 20px;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   }
   

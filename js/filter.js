@@ -24,6 +24,6 @@ filters.forEach(filter => {
       el.classList.add('show'); 
     });
 
-    console.log("Selected filter: " + selectedFilter);
+    console.log(filters);
   });
 });

@@ -50,8 +50,7 @@ body {
 }
   
 .filters {
-    margin: 150px 20px 20px 20px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     margin-top: 155px;
     display: inline;

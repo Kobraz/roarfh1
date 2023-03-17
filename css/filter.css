@@ -50,10 +50,9 @@ body {
 }
   
 main {
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     margin-top: 155px;
-    display: inline;
 }
   
 .filter {

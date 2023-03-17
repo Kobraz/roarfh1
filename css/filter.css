@@ -67,6 +67,10 @@ main {
 .img {
     max-height: 200px;
 }
+
+.img:hover {
+    max-height: 220px;
+}
   
 .project span {
     display: none;

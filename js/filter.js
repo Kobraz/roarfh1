@@ -26,3 +26,5 @@ filters.forEach(filter => {
 
   });
 });
+
+console.log("Test");

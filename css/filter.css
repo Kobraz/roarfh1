@@ -55,6 +55,13 @@ main {
     justify-content: center;
     margin-top: 155px;
 }
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 155px;
+}
   
 .filter {
     margin: 20px;

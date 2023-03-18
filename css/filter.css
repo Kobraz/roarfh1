@@ -1,11 +1,11 @@
-/*  Needed for filters */
 
-.hide { /* You can play with the seconds to change the "animation" */
-    animation: hide .3s ease 0s 1 normal forwards;
+
+.hide {
+    animation: hide .5s ease 0s 1 normal forwards;
     transform-origin: center;
   }
-  .show { /* You can play with the seconds to change the "animation" */
-      animation: show .3s ease 0s 1 normal forwards;    
+  .show {
+      animation: show .5s ease 0s 1 normal forwards;    
       transform-origin: center;
   }
   
@@ -31,9 +31,7 @@
       transform: scale(1);    
     }
   }
-  /*  // Needed for filters */
-  
-  /* For decoration only */
+
   body {
     font-family: sans-serif;
   }
@@ -65,9 +63,7 @@
   .filter:hover {
     cursor: pointer;
   }
-  
-  /* // For decoration only */
-  
+   
     .img {
       max-height: 200px;
     }

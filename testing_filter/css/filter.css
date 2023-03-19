@@ -91,7 +91,7 @@ main {
     margin-top: 155px;
 }
 
-div {
+div .projects {
     display: inline-block;
     border: solid 3px #ee00cb;
     border-radius: 10px;

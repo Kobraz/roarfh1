@@ -86,7 +86,6 @@ body {
 
 .project:hover span {
     display: block;
-    filter: drop-shadow();
 }
 
 main {

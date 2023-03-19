@@ -56,8 +56,9 @@ body {
 
 .filters {
     margin: 20px;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
 }
 

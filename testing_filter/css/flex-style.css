@@ -250,7 +250,7 @@ h3 {
 
 	
 
-    #menuList {
+    #nav-links {
         overflow: hidden;
         transition: 0.3s ease-in-out max-height;
         background-color: var(--basepink);

@@ -35,13 +35,15 @@
   body {
     font-family: sans-serif;
   }
-  /* .projects {
-    display: flex;
+  
+  .projects {
+    display: inline-block;
     background: gray;
     justify-content: center;
     align-items: center;
-    min-height: 200px; */
+    min-height: 200px;
   }
+
   .project {
     background: rebeccapurple;
     height: 200px;

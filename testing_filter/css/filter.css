@@ -106,5 +106,5 @@ div {
 
 button {
     cursor: pointer;
-    display: inline-block;
+    display: block;
 }

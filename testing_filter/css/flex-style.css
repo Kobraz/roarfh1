@@ -230,6 +230,14 @@ h3 {
 }
 
 
+.menu-icon {
+    width: 25px;
+    cursor: pointer;
+    display: none;
+    margin: 0 20px;
+}
+
+
 
 @media only screen and (max-width: 800px) {
 	.divLogo{
@@ -239,6 +247,18 @@ h3 {
         display: flex;
         position: relative;
 	}
+
+	.menu-icon {
+        display: block;
+    }
+
+    #menuList {
+        overflow: hidden;
+        transition: 0.3s ease-in-out max-height;
+        background-color: var(--basepink);
+        height: 200px;
+        font-size: 10px;
+    }
 
 	.logo {
 		max-height: 100px;

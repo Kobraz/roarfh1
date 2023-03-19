@@ -39,8 +39,7 @@ body {
 }
 
 .projects {
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     min-height: 200px;
@@ -48,8 +47,8 @@ body {
 
 .project {
     background: rebeccapurple;
-    /* height: 200px;
-    margin: 25px; */
+    height: 200px;
+    margin: 25px;
     padding-top: 0px;
     text-align: center;  
 }
@@ -67,12 +66,12 @@ body {
 .filter:hover {
     cursor: pointer;
 }
-   
+    
 .img {
     max-height: 200px;
 }
-  
-a span {
+    
+.project span {
     display: none;
     position: absolute;
     bottom: 0;
@@ -84,7 +83,7 @@ a span {
     border-radius: 10px 10px 0 0;
 }
 
-a:hover span {
+.project:hover span {
     display: block;
 }
 
@@ -92,10 +91,9 @@ main {
     margin-top: 155px;
 }
 
-div .projects {
-    display: flex;
-    flex-direction: row;
-    border: solid 3px #ee00cb;
+div {
+    display: inline-block;
+    border: solid 3px #ddd;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;

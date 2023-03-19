@@ -1,8 +1,9 @@
 
 
 .hide {
-animation: hide .5s ease 0s 1 normal forwards;
-transform-origin: center;
+    animation: hide .5s ease 0s 1 normal forwards;
+    transform-origin: center;
+    display: none;
 }
 
 .show {
@@ -35,68 +36,90 @@ transform-origin: center;
 }
 
 body {
-font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 .projects {
-display: inline-block;
-
-justify-content: center;
-align-items: center;
-min-height: 200px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
 }
 
 .project {
-background: rebeccapurple;
-height: 200px;
-margin: 25px;
-padding-top: 0px;
-text-align: center;  
+    background: rgb(0, 0, 0);
+    height: 200px;
+    margin: 25px;
+    padding-top: 4px;
+    text-align: center;  
 }
 
 .filters {
-margin: 20px;
-display: flex;
-justify-content: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .filter {
-margin: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 .filter:hover {
-cursor: pointer;
+    cursor: pointer;
 }
-   
+    
 .img {
     max-height: 200px;
+    border-radius: 5px;
 }
-  
+    
 .project span {
-display: none;
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-background: #ffffff;
-color: #000;
-border: 0.5px solid grey;
-border-radius: 10px 10px 0 0;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    color: #fff;
+    border-top: 0.5px solid #fff;
+    border-radius: 0 0 10px 10px;
 }
 
 .project:hover span {
-display: block;
+    display: block;
 }
 
 main {
-margin-top: 155px;
+    margin-top: 155px;
 }
 
 div {
-display: inline-block;
-border: solid 3px #ddd;
-border-radius: 10px;
-margin: 5px;
-padding: 5px;
+    display: inline-block;
+    /* border: solid 3px #ddd; */
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
 
+button {
+    cursor: pointer;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .filters {
+        margin: 20px;
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+    }
 }

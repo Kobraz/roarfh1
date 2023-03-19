@@ -92,7 +92,7 @@ main {
 }
 
 div .projects {
-    display: inline-block;
+    display: flex;
     border: solid 3px #ee00cb;
     border-radius: 10px;
     margin: 5px;

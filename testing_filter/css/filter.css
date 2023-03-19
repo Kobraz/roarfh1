@@ -3,6 +3,7 @@
 .hide {
     animation: hide .5s ease 0s 1 normal forwards;
     transform-origin: center;
+    display: none;
 }
 
 .show {

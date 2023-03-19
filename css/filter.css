@@ -38,7 +38,7 @@
   
   .projects {
     display: inline-block;
-    background: gray;
+    
     justify-content: center;
     align-items: center;
     min-height: 200px;

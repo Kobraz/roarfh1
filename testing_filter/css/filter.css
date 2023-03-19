@@ -46,7 +46,7 @@ body {
 }
 
 .project {
-    background: rebeccapurple;
+    background: rgb(0, 0, 0);
     height: 200px;
     margin: 25px;
     padding-top: 4px;

@@ -71,7 +71,7 @@ body {
     max-height: 200px;
 }
     
-.project span {
+a span {
     display: none;
     position: absolute;
     bottom: 0;
@@ -83,7 +83,7 @@ body {
     border-radius: 10px 10px 0 0;
 }
 
-.project:hover span {
+a:hover span {
     display: block;
 }
 

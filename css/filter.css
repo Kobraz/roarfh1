@@ -88,3 +88,11 @@
     margin-top: 155px;
   }
   
+  div {
+    display: inline-block;
+    border: solid 3px #ddd;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    
+  }

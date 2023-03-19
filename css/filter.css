@@ -35,12 +35,12 @@
   body {
     font-family: sans-serif;
   }
-  .projects {
+  /* .projects {
     display: flex;
     background: gray;
     justify-content: center;
     align-items: center;
-    min-height: 200px;
+    min-height: 200px; */
   }
   .project {
     background: rebeccapurple;

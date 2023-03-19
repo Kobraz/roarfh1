@@ -48,8 +48,8 @@ body {
 
 .project {
     background: rebeccapurple;
-    height: 200px;
-    margin: 25px;
+    /* height: 200px;
+    margin: 25px; */
     padding-top: 0px;
     text-align: center;  
 }

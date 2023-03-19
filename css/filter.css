@@ -54,7 +54,7 @@
   
   .filters {
     margin: 20px;
-    display: block;
+    display: flex;
     justify-content: center;
   }
   

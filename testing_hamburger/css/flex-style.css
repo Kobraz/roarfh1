@@ -257,6 +257,10 @@ h3 {
         z-index: -1;
         transition: .6s;
 	}
+
+    nav .nav-links .nav-item {
+        padding-left: 35px;
+    }
     
     .divMenu{
         top: 40px;

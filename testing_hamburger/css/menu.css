@@ -15,6 +15,7 @@ nav {
     height: 75px;
     line-height: 75px;
     background: #7da2ff;
+    z-index: 1;
 }
 
 /* nav .navbar-brand {

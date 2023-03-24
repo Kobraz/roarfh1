@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:;base64,iVBORw0KGgo=">
     <link rel="stylesheet" href="css/filter.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/flex-style.css">
     <script defer src="js/filter.js"></script>
+    <script defer src="js/menu.js"></script>
     <title>Square Eyes | Movies by genre</title>
 </head>
 <body>
+
+  <input type="checkbox" id="toggle">
 
 	<header>
 		<nav class="containerTop">
@@ -19,12 +23,21 @@
 				<img src="images/SquareEyes_Logo_anim.png" alt="The websites logo" class="logo">
 				</a>
 			</div>
+
+      <label class="navbar-toggler" for="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+
 			<ul class="nav-links">
-				<li><a href="index.html" class="menu">Home</a></li>
-				<li><a href="info.html" class="menu">About</a></li>
-				<li><a href="contact.html" class="menu">Contact</a></li>
-				<li><a href="cart.html" class="menu">Cart</a></li>
-				<li><a href="account.html" class="menu">Account</a> </li>
+				<li><a href="index.html" class="menu-link">Home</a></li>
+        <li><a href="genre.html" class="menu-link">Movies</a></li>
+				<li><a href="info.html" class="menu-link">About</a></li>
+				<li><a href="contact.html" class="menu-link">Contact</a></li>
+				<li><a href="cart.html" class="menu-link">Cart</a></li>
+				<li><a href="account.html" class="menu-link">Account</a> </li>
 			</ul>
 			
 		</nav>

@@ -149,6 +149,9 @@ button#account:hover{
     cursor: pointer;
 }
 
+button .filterButton {
+    text-align: center;
+}
 
 
 @media only screen and (max-width: 800px) {

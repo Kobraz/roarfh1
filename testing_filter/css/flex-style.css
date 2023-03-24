@@ -218,10 +218,6 @@ nav #nav-links .nav-item {
 	transition: .4s;
 }
 
-nav #nav-links .nav-item:hover {
-	background: #b69955;
-}
-
 nav #nav-links .menu-link {
 	color: #000;
 	font-size: 18px;

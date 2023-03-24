@@ -350,10 +350,7 @@ nav .navbar-toggler .bar {
 }
 
 input {
-	display: block;
-	width: 10px;
-	height: 10px;
-	background-color: white;
+	display: none;
 }
 
 input:checked ~ nav #nav-links {

@@ -87,7 +87,7 @@ input #toggle {
     display: none;
 }
 
-input #toggle:checked ~ nav .nav-list {
+input #toggle:checked ~ nav .nav-links{
     transform: translateY(0);
 }
 

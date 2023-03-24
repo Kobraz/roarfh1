@@ -24,26 +24,26 @@ nav {
     letter-spacing: .5px;
 } */
 
-/* nav .nav-list {
+nav .nav-links {
     display: flex;
 }
 
-nav .nav-list .nav-item {
+nav .nav-links .nav-item {
     cursor: pointer;
     height: 100%;
     padding: 0 30px;
     transition: .4s;
 }
 
-nav .nav-list .nav-item:hover {
+nav .nav-links .nav-item:hover {
     background: #b69955;
 }
 
-nav .nav-list .nav-link {
+nav .nav-links .nav-link {
     color: #f1f1f1;
     font-size: 18px;
     font-weight: 500;
-} */
+}
 
 @media (max-width: 935px) {
 

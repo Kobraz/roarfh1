@@ -247,12 +247,15 @@ h3 {
 	}
 
 	ul.nav-links {
-		font-family: 'Poppins', sans-serif;
-		font-size: 14px;
-		text-decoration: none;
-		display:flex;
-		flex-direction: column;
-        position: relative;
+		display: grid;
+        position: absolute;
+        background: #404040;
+        width: 100%;
+        top: 75px;
+        left: 0;
+        transform: translateY(-100%);
+        z-index: -1;
+        transition: .6s;
 	}
     
     .divMenu{

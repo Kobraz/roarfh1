@@ -249,9 +249,9 @@ h3 {
 	ul.nav-links {
 		display: grid;
         position: absolute;
-        background: #404040;
+        background: #7da2ff;
         width: 100%;
-        top: 75px;
+        top: 200px;
         left: 0;
         transform: translateY(-100%);
         z-index: -1;

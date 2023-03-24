@@ -351,6 +351,8 @@ nav .navbar-toggler .bar {
 
 input {
 	display: block;
+	width: 10px;
+	height: 10px;
 }
 
 input:checked ~ nav #nav-links {

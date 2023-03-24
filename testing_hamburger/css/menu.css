@@ -83,27 +83,27 @@ nav .navbar-toggler .bar {
     transition: .4s;
 }
 
-input {
+input #toggle {
     display: none;
 }
 
-input:checked ~ nav .nav-list {
+input #toggle:checked ~ nav .nav-list {
     transform: translateY(0);
 }
 
-input:checked ~ nav .navbar-toggler {
+input #toggle:checked ~ nav .navbar-toggler {
     margin-top: 35px;
 }
 
-input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+input #toggle:checked ~ nav .navbar-toggler .bar:nth-child(1) {
     position: absolute;
     transform: rotate(45deg);
 }
 
-input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+input #toggle:checked ~ nav .navbar-toggler .bar:nth-child(2) {
     display: none;
 }
 
-input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+input #toggle:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
 }

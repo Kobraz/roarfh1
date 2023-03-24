@@ -253,7 +253,7 @@ h3 {
         width: 100%;
         top: 150px;
         left: 0;
-        transform: translateY(-100%);
+        /* transform: translateY(-100%); */
         z-index: -1;
         transition: .6s;
 	}

@@ -350,7 +350,7 @@ nav .navbar-toggler .bar {
 }
 
 input {
-	display: none;
+	display: block;
 }
 
 input:checked ~ nav #nav-links {

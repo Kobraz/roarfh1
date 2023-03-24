@@ -59,21 +59,7 @@ nav .nav-list .nav-link {
 
 @media (max-width: 675px) {
 
-    /* nav .nav-list {
-        display: grid;
-        position: absolute;
-        background: #404040;
-        width: 100%;
-        top: 75px;
-        left: 0;
-        transform: translateY(-100%);
-        z-index: -1;
-        transition: .6s;
-    } */
-
-    nav .nav-links .nav-item {
-        padding-left: 35px;
-    }
+    
 
     nav .navbar-toggler {
         display: grid !important;

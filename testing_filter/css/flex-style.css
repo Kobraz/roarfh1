@@ -353,6 +353,7 @@ input {
 	display: block;
 	width: 10px;
 	height: 10px;
+	background-color: white;
 }
 
 input:checked ~ nav #nav-links {

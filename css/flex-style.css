@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
 
+:root {
+    --baseblue: #7da2ff;
+}
+
 body{
 	
 	height: 100vh;
@@ -11,7 +15,7 @@ body{
 	width: 100%;
 	height: 150px;
 	top: 0px;
-	background-color: #7da2ff;
+	background-color: var(--baseblue);
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -118,7 +118,7 @@ button {
     margin-right: auto;
 }
 
-button {
+/* button {
     background-color: #7da2ff;
     font-size:medium;
     font-weight: 100;
@@ -151,7 +151,7 @@ button#account:hover{
 
 button .filterButton {
     text-align: center;
-}
+} */
 
 
 @media only screen and (max-width: 800px) {

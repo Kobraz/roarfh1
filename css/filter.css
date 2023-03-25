@@ -90,7 +90,7 @@ body {
 
 .project:hover span {
     display: block;
-    position: absolute;
+    position: sticky;
 }
 
 main {

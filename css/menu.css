@@ -26,7 +26,7 @@ nav .logo-link {
 
 nav .nav-list {
     display: flex;
-    right: 0;
+    margin-right: 0;
 }
 
 nav .nav-list .nav-item {

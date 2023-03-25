@@ -15,7 +15,8 @@ nav {
     height: 150px;
     line-height: 30px;
     background: #7da2ff;
-
+    position: relative;
+    z-index: 1000;
 }
 
 nav .logo-link {
@@ -55,7 +56,7 @@ nav .nav-list .nav-link {
     nav {
         padding: 0 2rem;
     }
-
+,
     nav .nav-list .nav-item {
         padding: 0 5px;
     }

@@ -105,7 +105,7 @@ nav .navbar-toggler {
 nav .navbar-toggler .bar {
     width: 40px;
     height: 5px;
-    gap: 10px;
+    gap: 0;
     margin-bottom: 10px;
     background: black;
     border-radius: 10%;

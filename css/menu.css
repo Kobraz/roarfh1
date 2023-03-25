@@ -60,11 +60,12 @@ nav .nav-list .nav-link {
         padding: 0 5px;
     }
 
-    nav .logo-link {
+    nav .nav-list .nav-link {
         color: black;
+        font-family: 'Poppins', sans-serif;
         font-size: 18px;
         font-weight: 500;
-        letter-spacing: .5px;
+        text-decoration: none;
     }
 
 }

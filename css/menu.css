@@ -78,7 +78,7 @@ nav .nav-list .nav-link {
         position: absolute;
         background: #7da2ff;
         width: 100%;
-        top: 150px;
+        top: 100px;
         left: 0;
         transform: translateY(-100%);
         z-index: -1;

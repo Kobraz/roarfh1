@@ -20,7 +20,7 @@ body{
     justify-content: space-around;
     align-items: center;
 	position: fixed;
-	z-index: 200;
+	z-index: 2000;
 	}
 
 .divLogo{

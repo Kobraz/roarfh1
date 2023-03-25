@@ -118,40 +118,7 @@ button {
     margin-right: auto;
 }
 
-/* button {
-    background-color: #7da2ff;
-    font-size:medium;
-    font-weight: 100;
-    border-radius: 10px;
-    border: 0.5;
-    box-shadow: 4px 4px 10px
-        rgba(0, 0, 0, 0.06);
-    width: 100px;
-}
 
-button#account {
-    background-color: #7da2ff;
-    font-size:medium;
-    font-weight: 100;
-    border-radius: 10px;
-    box-shadow: 4px 4px 10px
-        rgba(0, 0, 0, 0.06);
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    border: #666 solid 2px;
-}
-
-button#account:hover{
-    transform: translatey(-0.5%);
-    box-shadow: 0 4rem 8rem rgba(255, 251, 0, 0.5);
-    border: #fff solid 2px;
-    cursor: pointer;
-}
-
-button .filterButton {
-    text-align: center;
-} */
 
 
 @media only screen and (max-width: 800px) {
@@ -159,7 +126,7 @@ button .filterButton {
         margin: 20px;
         display: grid;
         grid-gap: 0.5rem;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, .5fr);
         width: 100%;
     }
 }

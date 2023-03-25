@@ -60,6 +60,13 @@ nav .nav-list .nav-link {
         padding: 0 5px;
     }
 
+    nav .logo-link {
+        color: black;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
+
 }
 
 @media (max-width: 675px) {

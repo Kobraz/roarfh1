@@ -67,6 +67,12 @@ h2 {
 	color: white;
 }
 
+.homeHeader {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 34px;
+}
+
 .movies-h1 {
 	text-align: center;
 	font-family: 'Poppins', sans-serif;

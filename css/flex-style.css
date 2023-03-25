@@ -238,6 +238,14 @@ h3 {
 
 
 @media only screen and (max-width: 950px) {
+	.divLogo{
+		top: 0px;
+        width: 150px;
+        height: 75px;
+        display: flex;
+        position: relative;
+	}
+	
 	ul.nav-links {
 		font-family: 'Poppins', sans-serif;
 		font-size: 18px;

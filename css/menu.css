@@ -51,7 +51,7 @@ nav .nav-list .nav-link {
     text-decoration: none;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
 
     nav {
         padding: 0 2rem;

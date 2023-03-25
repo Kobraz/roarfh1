@@ -80,7 +80,8 @@ body {
     display: block;
     /* position: absolute; */
     position: sticky;
-    height: 3.8rem;
+    height: 4rem;
+    padding-top: 2px;
     bottom: 0;
     left: 0;
     right: 0;

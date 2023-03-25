@@ -83,7 +83,7 @@ nav .nav-list .nav-link {
 
 nav .navbar-toggler {
     display: none;
-    height: max-content;
+    height: 40px;
     margin: 18px -10px 0 0;
     cursor: pointer;
 }

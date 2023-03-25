@@ -20,8 +20,11 @@ body{
     justify-content: space-around;
     align-items: center;
 	position: fixed;
-	z-index: 2000;
 	}
+
+header {
+    z-index: 2000;
+}
 
 .divLogo{
 	max-width: 160px;

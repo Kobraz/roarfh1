@@ -78,7 +78,7 @@ body {
     
 .project span {
     display: none;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     left: 0;
     right: 0;

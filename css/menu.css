@@ -17,29 +17,29 @@ nav {
     background: #7da2ff;
 }
 
-nav .navbar-brand {
+nav .logo-link {
     color: black;
     font-size: 28px;
     font-weight: 500;
     letter-spacing: .5px;
 }
 
-nav .nav-links {
+nav .nav-list {
     display: flex;
 }
 
-nav .nav-links .nav-item {
+nav .nav-list .nav-item {
     cursor: pointer;
     height: 100%;
     padding: 0 30px;
     transition: .4s;
 }
 
-nav .nav-links .nav-item:hover {
+nav .nav-list .nav-item:hover {
     background: #97b4ff;
 }
 
-nav .nav-links .menu-point {
+nav .nav-list .nav-link {
     color: black;
     font-size: 18px;
     font-weight: 500;
@@ -51,7 +51,7 @@ nav .nav-links .menu-point {
         padding: 0 2rem;
     }
 
-    nav .nav-links .nav-item {
+    nav .nav-list .nav-item {
         padding: 0 20px;
     }
 
@@ -59,7 +59,7 @@ nav .nav-links .menu-point {
 
 @media (max-width: 675px) {
 
-    nav .nav-links {
+    nav .nav-list {
         display: grid;
         position: absolute;
         background: #7da2ff;
@@ -71,7 +71,7 @@ nav .nav-links .menu-point {
         transition: .6s;
     }
 
-    nav .nav-links .nav-item {
+    nav .nav-list .nav-item {
         padding-left: 35px;
     }
 
@@ -101,7 +101,7 @@ input {
     display: none;
 }
 
-input:checked ~ nav .nav-links {
+input:checked ~ nav .nav-list {
     transform: translateY(0);
 }
 

@@ -26,6 +26,7 @@ nav .logo-link {
 
 nav .nav-list {
     display: flex;
+    right: 0;
 }
 
 nav .nav-list .nav-item {
@@ -34,7 +35,6 @@ nav .nav-list .nav-item {
     padding: 0 10px;
     transition: .4s;
     top: 50px;
-    right: 0;
 }
 
 nav .nav-list .nav-item:hover {

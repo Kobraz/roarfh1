@@ -71,7 +71,7 @@ nav .nav-list .nav-link {
 
 }
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
 
     nav .nav-list {
         display: grid;

@@ -37,6 +37,7 @@ nav .nav-list .nav-item {
 
 nav .nav-list .nav-item:hover {
     background: #b69955;
+    color: white;
 }
 
 nav .nav-list .nav-link {

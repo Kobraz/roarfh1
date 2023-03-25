@@ -28,18 +28,18 @@ nav .nav-links {
     display: flex;
 }
 
-nav .nav-links .menu {
+nav .nav-links .nav-item {
     cursor: pointer;
     height: 100%;
     padding: 0 30px;
     transition: .4s;
 }
 
-nav .nav-links .menu:hover {
+nav .nav-links .nav-item:hover {
     background: #97b4ff;
 }
 
-nav .nav-links .nav-link {
+nav .nav-links .menu-point {
     color: black;
     font-size: 18px;
     font-weight: 500;
@@ -51,7 +51,7 @@ nav .nav-links .nav-link {
         padding: 0 2rem;
     }
 
-    nav .nav-links .menu {
+    nav .nav-links .nav-item {
         padding: 0 20px;
     }
 
@@ -71,7 +71,7 @@ nav .nav-links .nav-link {
         transition: .6s;
     }
 
-    nav .nav-links .menu {
+    nav .nav-links .nav-item {
         padding-left: 35px;
     }
 

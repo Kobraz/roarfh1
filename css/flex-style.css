@@ -76,7 +76,8 @@ h2 {
 .movies-h2 {
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
-	font-size: 34px;
+	font-size: 26px;
+	color: black;
 }
 
 .containerMain{

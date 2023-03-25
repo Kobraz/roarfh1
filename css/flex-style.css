@@ -240,6 +240,7 @@ h3 {
 @media only screen and (max-width: 1050px) {
 	.logo{
 		top: auto;
+		bottom: auto;
         width: 227px;
         height: 120px;
         display: flex;
